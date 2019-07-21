@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "browserify index.js -o index.js -d"
+    "build": "browserify index.js -o app.js -d"
   },
   "dependencies": {
     "browserify": "^16.3.0",
