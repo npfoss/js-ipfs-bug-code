@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "browserify index.js -o index.js -d"
+  },
+  "dependencies": {
+    "browserify": "^16.3.0",
+    "ipfs": "^0.36.4"
+  }
+}
