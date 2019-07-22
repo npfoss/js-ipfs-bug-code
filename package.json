@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "browserify index.js -o app.js -d"
+    "build": "browserify index.js -o app.js -d --ignore-transform=babelify"
   },
   "dependencies": {
     "browserify": "^16.3.0",
